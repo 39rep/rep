@@ -1,0 +1,51 @@
+.home-container {
+  width: 100%;
+  height: 100vh;
+  background-color: greenyellow;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home {
+  background-color: white;
+  max-width: 788px;
+  margin: 0 auto;
+  margin-top: 50px;
+  padding: 0 1.5rem;
+}
+
+.contents {
+  padding: 0 3rem;
+  background-color: aqua;
+}
+
+.diary-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+}
+
+.diary {
+  border: solid thin black;
+  border-radius: 10px;
+}
+
+.diary img {
+  border-radius: 10px 10px 0 0;
+}
+
+.diary-container a {
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+}
+
+.diary-container h3 {
+  margin: 0;
+}
+
+.diary-container p {
+  margin: 0;
+  margin-left: 1ex;
+}
